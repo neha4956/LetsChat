@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Let\'sChat</string>
+    <string name="need_a_new_account">Need a new account?</string>
+    <string name="log_out">Log Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hey_there_i_m_using_let_s_chat_app">Hey there. I\'m Using Let\'s chat App</string>
+    <string name="display_name">Display Name</string>
+    <string name="user_image" />
+    <string name="hi_there_i_am_using_lapit_chat_app" />
+    <string name="total_friends" />
+    <string name="send_friend_request" />
+    <string name="deline_friend_request" />
+</resources>

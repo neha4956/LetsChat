@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".SettingsActivity">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/settings_Image"
+       android:layout_width="209dp"
+       android:layout_height="208dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginStart="58dp"
+       android:layout_marginLeft="58dp"
+       android:layout_marginTop="26dp"
+       android:src="@drawable/ic_person" />
+
+   <TextView
+       android:id="@+id/settings_display_name"
+       android:layout_width="177dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginStart="146dp"
+       android:layout_marginLeft="146dp"
+       android:layout_marginTop="276dp"
+       android:text="@string/display_name"
+       android:textColor="#FFFFFF"
+       android:textSize="24sp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/settings_status"
+       android:layout_width="325dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"
+       android:layout_centerInParent="true"
+       android:layout_marginEnd="-14dp"
+       android:layout_marginRight="-14dp"
+       android:layout_marginBottom="348dp"
+       android:text="@string/hey_there_i_m_using_let_s_chat_app"
+       android:textColor="#FFFFFF"
+       android:textSize="18sp" />
+
+   <Button
+       android:id="@+id/settings_Image_btn"
+       android:layout_width="148dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="142dp"
+       android:background="#FFFFFF"
+       android:text="change Image"
+       android:textColor="#150606" />
+
+   <Button
+       android:id="@+id/settings_status_btn"
+       android:layout_width="153dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="65dp"
+       android:background="@color/colorPrimary"
+       android:text="Change Status"
+       android:textColor="#FFFFFF" />
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_single_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_layout"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_person" />
+
+    <TextView
+        android:id="@+id/message_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/message_text_background"
+        android:padding="15dp"
+        android:paddingLeft="10dp"
+        android:text="message Text"
+        android:gravity="bottom"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/name_text_layout"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="0dp"
+        android:text="Display Name" />
+
+    <TextView
+        android:id="@+id/time_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_toEndOf="@+id/name_text_layout"
+        android:text="00:00" />
+
+
+</RelativeLayout>
